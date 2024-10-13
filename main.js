@@ -122,4 +122,44 @@
 // for(let i = 0; i < 10; i++){
 //     heading.innerHTML+='*'.repeat(i) +'<br>';   
 // }
+// const heading = document.querySelector('.heading')
+// const Fruits = ['Apple', 'Banana', 'Kewei', 'Pinaple', 'Jackfruit'];
+// Fruits.push('Lemon', 'Watermallon', {firstNmae: 'Arif', LastName: 'Momin', Car: {CarName: 'Rolls Royes', Color: 'Black', Carowner: "Arif Momin"}});
+// console.log(Fruits[7].Car.Carowner);
+// console.log(Fruits.slice(7));
+
+// const Car ={CarName: 'Rols Royes', CarModel: 'Rolls-Royce Phantom', CarColor: ['Red', 'Blue', 'Black', 'Green']}
+// console.log(Car.CarColor);
+// const Fruits = ['Apple', 'Banana', 'Kewei', 'Pinaple', 'Jackfruit'];
+// Fruits[3] = 'aslf'
+// console.log(Fruits);
+// const fruitsc = ["Banana", "Orange", "Apple",'amr' ,'name','arif'];
+// const fruits = ["Banana", "Orange", "Apple", "Kiwi"];
+// console.log(fruits.splice(1, 2));
+
+
+// const fruits = ['Apple', 'Banana', 'Pinaple','Orange',{FirstName: 'Arif', LastName: 'Momin'},'Mango','Jackfruit','guava','jam','gab'];
+// const car = ['Bus', 'car','Bike', 'Texi', 'Bmw', 'Rols Royes']
+// fruits.slice(2);
+// console.log(fruits.concat(car));
+// console.log(fruits);
+// const all = fruits.concat(car);
+
+// console.log(all);
+// const car = ['Bus', 'car','Bike', 'Texi', 'Bmw', 'Rols Royes']
+// const fruits = ['Apple', 'Banana', 'Pinaple','Orange',{FirstName: 'Arif', LastName: 'Momin'},'Mango','Jackfruit','guava','jam','gab'];
+// console.log(fruits.shift());
+// const x = (car.splice(2, 3) );
+// console.log(x);
+
+// const namee = ['Amr', 'bal', 'Arif', 'hup', 'Shakil']
+// console.log(namee.splice(1, 0, "Name"));
+// console.log(namee.splice(4, 0, "Momin"));
+// console.log(namee.splice(2, 1));
+// console.log(namee.splice(4, 1));
+// console.log(namee.splice(5, 0 , 'Tomar','Name', 'ki'));
+// console.log(namee);
+const namee = ['Amr', 'bal', 'Arif', 'hup', 'Shakil']
+const x = (namee.at(2));
+console.log(x);
 
