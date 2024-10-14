@@ -159,7 +159,58 @@
 // console.log(namee.splice(4, 1));
 // console.log(namee.splice(5, 0 , 'Tomar','Name', 'ki'));
 // console.log(namee);
-const namee = ['Amr', 'bal', 'Arif', 'hup', 'Shakil']
-const x = (namee.at(2));
-console.log(x);
+// const namee = ['Amr', 'bal', 'Arif', 'hup', 'Shakil']
+// const x = (namee.at(2));
+// console.log(x);
+
+// const fruits = ["Apple", "Orange", "Apple", "Mango"];
+// console.log(fruits.sort());
+// console.log(fruits.reverse());
+// const fruits = ["Apple", "Orange", "banana", "Mango"];
+
+// function myFunction (value, index){
+//     console.log(value);
+//     return  value + 5  
+// }
+// const sss = fruits.map(myFunction);
+
+// console.log(sss);
+// console.log(fruits);
+
+/**
+ * todo: alemelo array k alphabatically ba number wise sajano
+ */
+// const roll = [1,4,2,5,7,8,87,67];
+
+// console.log(roll.sort((a,b) =>{return a - b }));
+/**
+ * todo: lipear ber kora 
+ */
+// const myFunction = ((year) =>{
+//     if(year % 400 === 0 || year % 100 !== 0 && year % 4 === 0){
+//         console.log(year ,'This year is lipear');
+        
+//     }else{
+//         console.log(year ,'This year is not lipear');
+
+//     }
+// })
+// myFunction(2028);
+/**
+ * todo: text theke vowel ber kora
+ */
+// const vowel = ['a', 'e', 'i', 'o', 'u', 'A', 'E','I','O','U'];
+// const myFunction = ((value) =>{
+//     let numberr = 0;
+//     const sentence = Array.from(value);
+//     sentence.forEach((item) =>{
+//         if(vowel.includes(item)){
+//             numberr++
+//         }
+
+//     });
+//     return numberr
+// })
+// console.log(myFunction('Amar sunar bangla'));
+
 
