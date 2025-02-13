@@ -213,4 +213,62 @@
 // })
 // console.log(myFunction('Amar sunar bangla'));
 
+// const cars = ['Toyota ', 'Volkswagen ', 'Ford ', 'Honda ', 'BMW', 'Audi' , 'Ferrari' , 'Porsche', 'Lamborghini', 'Volvo', 'Mitsubishi' , 'Mazda'];
+// let allCar = '';
+// for(let i = 0; i < cars.length; i++){
+//     allCar += cars[i] + '<br>';
+// }
+// const dddd = document.querySelector('.dddd').innerHTML = allCar
+// console.log(allCar);
 
+// =======================for loop
+// let numberr = '';
+// const cars = ['Toyota ', 'Volkswagen ', 'Ford ', 'Honda ', 'BMW', 'Audi' , 'Ferrari' , 'Porsche', 'Lamborghini', 'Volvo', 'Mitsubishi' , 'Mazda'];
+// for(let i = 0; i < cars.length ; i++){
+//     numberr += i + ')'+ ' ' + cars[i] + '<br>';
+// }
+// const dddd = document.querySelector('.dddd').innerHTML = numberr
+// console.log(numberr);
+
+// ==================================for loop 
+// const car = ['Toyota ', 'Volkswagen ', 'Ford ', 'Honda ', 'BMW', 'Audi' , 'Ferrari' , 'Porsche', 'Lamborghini', 'Volvo', 'Mitsubishi' , 'Mazda'];
+// const text = document.querySelector('.text');
+// let allCar = '';
+// for(let i = 0; i < car.length; i++){
+//     allCar += i + car[i] + '<br>'
+//     text.innerHTML = allCar
+// }
+// console.log(text);
+
+// ====================================== namta 
+
+const input = document.querySelector('input');
+const h1 = document.querySelector('p');
+const button  =document.querySelector('.button');
+function handleButton (){
+    let inputValue = input.value;
+    
+    if(inputValue && !isNaN(inputValue)){
+        let numberr = ''
+        for(let i = 1; i <= 10 ; i++){
+            numberr += inputValue + ' X ' + i + ' = ' + inputValue * i + '<br>'
+            h1.innerHTML = numberr
+        } 
+    }else{
+        h1.innerHTML = 'please input a valid number' 
+    }
+}
+
+button.addEventListener('click', () =>{
+    let inputValue = input.value;
+    
+        if(inputValue && !isNaN(inputValue)){
+            let numberr = ''
+            for(let i = 1; i <= 10 ; i++){
+                numberr += inputValue + ' X ' + i + ' = ' + inputValue * i + '<br>'
+                h1.innerHTML = numberr
+            } 
+        }else{
+            h1.innerHTML = 'please input a valid number' 
+        }
+})
